@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Dynamic Quiz Project</title>
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <link type='text/css' rel='stylesheet' href='style.css'/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
+        <script type='text/javascript' src='script.js'></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="container">
+            <h2>Project 1: Ye Olde Pub Quiz</h2>
+            <div id="leaderBoard" style = "display:none"></div>
+            <div id="score">
+                How many questions: <input id="amount" value="5" style = "width:50px">
+                which category?
+                <select id ="category">
+                <option value ="11">Film</option>
+                <option value ="12">Music</option>
+                <option value ="14">Television</option>
+                <option value = "15">Video Game</option>
+                </select>
+                Difficulty Level:
+                <select id ="difficulty">
+                <option value ="easy">Easy</option>
+                <option value ="medium">Medium</option>
+                <option value ="hard">Hard</option>
+                </select>
+                Username: <input id="username"  style = "width:50px">
+                <div class= "button" id = "go" onclick = "quiz()">Go</div>
+            </div>
+
+            <div id ="quiz" style ="display:none">
+                <div class="timer">
+                    <div id="progressbar" class="progressbar red"></div>
+                    <div class="button" id="addTime" style="float:left; position: relative; margin-top:30px"><a href="#">+10s</a></a></div>
+                    <div class="button" id="5050" style="float:left; position: relative; margin-top:30px"><a href="#">50/50</a></a></div>
+                </div>
+                <div id = "question"></div>
+                <ul id = "choiceList"></ul>
+                <div id = "message"></div>
+                <div id = "quitScreen"></div>
+                <div class="button" id="quit"><a href="#">Quit</a></div>
+                <div class="button" id="next"><a href="#">Next</a></div>
+                <div class="button" id="leader"><a href="#">Result</a></div>
+            </div>
+
+        </div>
+
+    </body>
+</html>

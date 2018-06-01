@@ -1,0 +1,124 @@
+body{
+    font-family: Open Sans;
+    font-size:15px;
+    background-color:black;
+    margin:auto;
+    padding:50px;
+
+}
+#container{
+    background-color:white;
+    width:80%;
+    padding-bottom: 20px;
+    height:auto;
+    margin:auto;
+    border-radius: 20px;
+
+}
+
+#quiz {
+    width:80%;
+    margin:auto;
+    padding: 5px 20px 50px 10px;
+    background-color:white;
+    font-weight: bold;
+}
+
+#leaderBoard {
+    width:79.5%;
+    margin:auto;
+    padding: 5px 20px 15px 10px;
+    background-color:white;
+    font-weight: bold;
+    border-bottom-color: lightcoral;
+}
+table{
+    text-align: center;
+    margin-top:30px;
+    padding:10px;
+    border-radius: 15px;
+    background-color: lightgray;
+    width:100%;
+}
+
+table td{
+    text-align: center;
+    margin:auto;
+}
+
+h2 {
+    text-align: center;
+    background-color:lightgray;
+    width:100%;
+    margin:10px 0 0 0;
+    position: relative;
+    padding: 20px 0 20px 0;
+    color: black;
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-width: 10px;
+    border-bottom-color: silver;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+#score {
+    text-align: center;
+    background-color:white;
+    width:90%;
+    margin:auto;
+    padding: 20px 20px 5px 10px;
+    color: black;
+}
+ul {
+    list-style: none;
+}
+
+
+.button {
+    text-align: center;
+    width: 60px;
+    padding: 5px;
+    position: relative;
+    float: right;
+    background-color: silver;
+    color: black;
+    margin: 0 4px 0 4px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.timer {
+    position: relative;
+    padding-bottom: 50px;
+    width: 100%;
+    margin:auto;
+    height: 20px;
+    text-align: left;
+    border-radius: 15px;
+}
+
+.red {
+    background-color: silver;
+}
+
+.progressbar {
+    float: left;
+    position: absolute;
+    overflow: hidden;
+    height: 20px;
+    width:100%;
+    margin:0px;
+    border-radius: 15px;
+}
